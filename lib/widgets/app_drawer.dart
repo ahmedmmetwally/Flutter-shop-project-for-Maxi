@@ -12,8 +12,8 @@ class AppDrawer extends StatelessWidget {
       ),
       Divider(),
       ListTile(leading: Icon(Icons.shop),title: Text("Shop"),onTap: ()=>Navigator.of(context).pushReplacementNamed("/"),),
-    ListTile(leading: Icon(Icons.shop),title: Text("Shop"),onTap: ()=>Navigator.of(context).pushReplacementNamed(OrdersScreen.routName),),
-    ListTile(leading: Icon(Icons.update),title: Text("manage product"),onTap: ()=>Navigator.of(context).pushReplacementNamed(UserProductsScreen.routeName),)
+      ListTile(leading: Icon(Icons.shop),title: Text("Shop"),onTap: ()=>Navigator.of(context).pushReplacementNamed(OrdersScreen.routName),),
+      ListTile(leading: Icon(Icons.update),title: Text("manage product"),onTap: ()=>Navigator.of(context).pushReplacementNamed(UserProductsScreen.routeName),)
 
     ],),);
   }

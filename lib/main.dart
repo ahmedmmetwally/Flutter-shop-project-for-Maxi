@@ -22,8 +22,7 @@ class MyApp extends StatelessWidget {
         value:Products()),
       ChangeNotifierProvider.value(value: Cart()),
       ChangeNotifierProvider.value(value:Orders()),
-
-    ],
+     ],
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
